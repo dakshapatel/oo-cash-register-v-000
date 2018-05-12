@@ -14,8 +14,7 @@ end
 
 def add_item(title, price, quantity =1)
   #binding.pry
-  #where are we going to add the item?
-  item_info = {}
+ self.total += price * amount
 end 
 
 end
