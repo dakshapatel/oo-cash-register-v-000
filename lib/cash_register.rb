@@ -18,12 +18,13 @@ def add_item(item, price, quantity =1)
 end
 
 def apply_discount
-  if discount > 0 && total
-    self.total = (self.total *((100.0 - discount)/100))
-  else
-    self.total
+  if @discount == 0
+    return "There is no discount to apply"
   end
-end
+  @total -= @total * @discount /100
+  return "after the discount, the total comes to $#{@total}"
+  end
+
 
 
 end
