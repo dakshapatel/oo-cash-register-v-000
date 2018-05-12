@@ -17,4 +17,13 @@ def add_item(item, price, quantity =1)
  self.total += price * quantity
 end
 
+def apply_discount
+  if discount > 0 && total
+    self.total = (self.total *((100.0 - discount.tof)/100)).to_i
+  else
+    self.total
+  end
+end 
+
+
 end
