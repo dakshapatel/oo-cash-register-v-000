@@ -8,7 +8,9 @@ def initialize
   @cash_register_with_discount = 20
 end
 
-
+def total
+  @cash_register = 100
+end
 
 
 
