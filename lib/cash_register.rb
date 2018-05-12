@@ -16,7 +16,7 @@ def add_item(title, price, quantity =1)
   binding.pry
   self.total = price * quantity
   quantity.times do
-    items << add_item
+    items << title
   end
   self.last_transaction = price * quanitity
   end
