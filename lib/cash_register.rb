@@ -10,7 +10,11 @@ def initialize(discount=20)
 end
 
 
-def add_item 
+def add_item(title,price)
+  self.total +=price * quantity
+  quantity.times do
+    items << add_item
+  end
 
 
 end
