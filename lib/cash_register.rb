@@ -9,7 +9,7 @@ def initialize
 end
 
 def total
-  @cash_register = 100
+  @total
 end
 
 
