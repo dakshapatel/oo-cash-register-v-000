@@ -29,7 +29,7 @@ end
 def items
   items = []
 
-self.total.push items
+self.total.puts items
 items
 end
 
