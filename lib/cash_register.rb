@@ -22,7 +22,7 @@ end
 def apply_discount
   self.total = @total * @discount /100
   if @discount == 0
-    return "There is no discount to apply."
+    "There is no discount to apply."
   else
   "After the discount, the total comes to $#{self.total}."
   end
