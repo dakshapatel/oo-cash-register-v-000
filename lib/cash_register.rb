@@ -16,6 +16,7 @@ end
 def add_item(item, price, quantity =1)
   #binding.pry
  self.total += price * quantity
+ @all_items << item
 
 end
 
@@ -30,7 +31,7 @@ def apply_discount
 
 def items
   #binding.pry
-  @all_items 
+  @all_items
 end
 
 def void_last_transaction
