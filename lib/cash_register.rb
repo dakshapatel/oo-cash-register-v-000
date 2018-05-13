@@ -30,7 +30,7 @@ def apply_discount
 
 def items
   #binding.pry
-  @all_items << items
+  @all_items 
 end
 
 def void_last_transaction
