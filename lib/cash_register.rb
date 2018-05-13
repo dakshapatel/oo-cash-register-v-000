@@ -21,11 +21,16 @@ def apply_discount
   if @discount == 0
     return "There is no discount to apply."
   else
-  @total -= @total * @discount /100
+  @total -= @total * @discount /100.0
   return "After the discount, the total comes to $#{@total}."
   end
 end
 
+def items
+  items = []
+
+self.total << items
+end
 
 
 end
