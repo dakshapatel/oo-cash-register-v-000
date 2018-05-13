@@ -3,7 +3,7 @@ require 'pry'
 
 class CashRegister
 
-attr_accessor :total, :discount, :last_transaction, :price
+attr_accessor :total, :discount, :last_transaction, :price, :items
 
 def initialize(discount=0)
   @all_items= []
@@ -30,7 +30,7 @@ def apply_discount
 
 def items
   #binding.pry
-  @all_items 
+  @all_items
 end
 
 def void_last_transaction
