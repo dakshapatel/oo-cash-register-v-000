@@ -22,12 +22,9 @@ end
 def apply_discount
   if @discount == 0
   return "There is no discount to apply."
-elsif 
-  
+elsif
   "After the discount, the total comes to $#{self.total}."
-
-end 
-
+  end 
 end
 
 def items
