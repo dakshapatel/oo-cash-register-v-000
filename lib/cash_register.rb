@@ -19,19 +19,17 @@ end
 
 def apply_discount
   if @discount == 0
-    self.total -= @total * @discount /100
-    "After the discount, the total comes to $#{self.total}."
-  else
-    "There is no discount to apply."
+    return "There is no discount to apply."
   end
-
+  self.total -= @total * @discount /100
+  return "After the discount, the total comes to $#{self.total}."
 
 end
 
 def items
   items = []
 
-self.total.puts items
+self.total.p items
 items
 end
 
