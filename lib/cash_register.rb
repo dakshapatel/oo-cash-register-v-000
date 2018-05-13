@@ -9,7 +9,7 @@ def initialize(discount=0)
   @all_items= []
   @total = 0
   @discount = discount
-
+  @items = items
 end
 
 
