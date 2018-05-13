@@ -29,7 +29,7 @@ def apply_discount
   end
 
 def items
-  binding.pry
+  #binding.pry
   @all_items << items
 end
 
