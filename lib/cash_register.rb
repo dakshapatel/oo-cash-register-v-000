@@ -23,7 +23,7 @@ def apply_discount
   end
   self.total -= @total * @discount /100
   return "After the discount, the total comes to $#{self.total}."
-  end
+  
 end
 
 def items
