@@ -29,7 +29,7 @@ def apply_discount
   end
 
 def items
-  @all_items
+  @all_items << items
 end
 
 def void_last_transaction
