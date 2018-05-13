@@ -19,7 +19,7 @@ def add_item(item, price, quantity =1)
  quantity.times do
  @all_items << item
 end
-  self.last_transaction = amount * quantity
+  self.last_transaction = price * quantity
 end
 
 def apply_discount
