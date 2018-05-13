@@ -16,6 +16,7 @@ end
 def add_item(item, price, quantity =1)
   #binding.pry
  self.total += price * quantity
+ quantity.times do 
  @all_items << item
 
 end
